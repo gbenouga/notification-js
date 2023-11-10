@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: whitesmoke;
+    background-color: rgb(4, 4, 48);
+}
+
+h1{
+    color: rgb(70, 70, 218);
+    font-size: 50px;
+}
+
+p{
+    margin: 20px;
+}
+img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 50%;
+}
